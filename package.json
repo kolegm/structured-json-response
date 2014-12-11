@@ -1,0 +1,29 @@
+{
+  "name": "structured-json-response",
+  "version": "0.1.0",
+  "description": "Structured json response",
+  "keywords": [
+    "json",
+    "response",
+    "http status"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "underscore": "^1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kolegm/structured-json-response.git"
+  },
+  "author": {
+    "name": "Oleg Kravchuk",
+    "email": "kolegm.real@gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "path": "./LICENSE"
+  }
+}
