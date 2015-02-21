@@ -45,6 +45,7 @@ $ npm install structured-json-response -S
 
 Usage:
 ```node.js
+var util = require('util');
 var wrapper = require('structured-json-response');
 
 const HTTP_STATUS_CODE_OK = 200;
