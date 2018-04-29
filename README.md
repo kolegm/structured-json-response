@@ -1,10 +1,6 @@
 #Structured JSON response
 Module `structured-json-response`  
 
-VERSION 0.1.1
-- (github)[https://github.com/kolegm/structured-json-response]
-- (npm)[https://www.npmjs.com/package/structured-json-response]
-
 ##Lyrical digression
 Services have the opportunity to return both HTTP status codes along with a body in the response. In many JavaScript frameworks, HTTP status response codes are not returned to the end-developer, often preventing the client from determining behavior based on that status code. Additionally, with the myriad response codes in the HTTP spec, often there are only a few that clients care about—frequently boiling down to 'success', 'error', or 'failure'. Consequently, it is beneficial to wrap responses in a representation that contains information about the response as well as the response itself.
 
